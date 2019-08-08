@@ -1,7 +1,11 @@
 {
   "manifest_version": 2,
   "name": "Memecase",
-  "version": "0.1",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
   "content_scripts": [
     {
       "matches": [
@@ -11,6 +15,6 @@
     }
   ],
   "browser_action": {
-    "default_icon": "sPoNgE.jpg"
+    "default_icon": "sponge.png"
   }
 }
